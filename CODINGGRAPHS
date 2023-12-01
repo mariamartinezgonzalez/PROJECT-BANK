@@ -1,1 +1,29 @@
+pip install matplotlib
+pip install pandas
+
+# Import necessary libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset
+df = pd.read_csv("updated_projectbank.csv", sep=";")
+
+# Set up the figure and axis for subplots
+fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 10))
+
+# Gender Representation
+gender_counts = df['Gender'].value_counts()
+axes[0, 1].bar(gender_counts.index, gender_counts.values, color=['lightblue', 'lightpink'])
+axes[0, 1].set_title('Gender Representation')
+axes[0, 1].set_xlabel('Gender')
+axes[0, 1].set_ylabel('Count')
+
+# Attrition Status
+attrition_counts = df['Attrition_Flag'].value_counts()
+axes[1, 1].bar(attrition_counts.index, attrition_counts.values, color=['lightcoral', 'lightgreen'])
+axes[1, 1].set_title('Attrition Status')
+axes[1, 1].set_xlabel('Attrition Status')
+axes[1, 1].set_ylabel('Count')
+
+
 

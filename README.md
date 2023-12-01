@@ -54,6 +54,9 @@ We will analyse the data to gain insights into customer characteristics and iden
      "updated_projectbank.csv" using the to_csv function.
 
 
+**GRAPHICS FOR EXPLAINIG THE DATASET**
+
+
 
 
 

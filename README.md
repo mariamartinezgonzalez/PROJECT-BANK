@@ -80,14 +80,14 @@ Barchart Education level:
 1. Once you have clean the dataset and add the new variables.
 2. Install 2 libraries: pip install matplotlib, pip install pandas in the terminal
 3. import pandas as pd import matplotlib.pyplot as plt
-4. Download the code from the “CODING.py” folder
+4. Download the code from the “CODINGRAPHS” folder
 5. upload the updatedfolder: https://docs.google.com/spreadsheets/d/18y78HwFkJX4VpXCnKNzlubgCz9f3Hal5WUf4RVspoco/edit#gid=0
    
 <img width="227" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/868f9ef1-83d6-444e-b4d6-4610e1d3a55b">
 
 6. Save “CODINGRAPH” in a folder that you choose to be the directory of your project in Pycharm.
    Once you have saved it, open this file in Pycharm by clicking on the directory, then clicking “New” and finally clicking
-   “File” and type in the name of the file, in this case: “CODINGRAPH.py”.
+   “File” and type in the name of the file, in this case: “CODINGRAPHS.py”.
 
 **MOCKUPS**
 ![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/597850fd-28f3-4f5b-8ebd-244561e651b5)
@@ -111,7 +111,7 @@ chart with the most 10 loyal customers and their income:
 1. Once you have clean the dataset and add the new variables.
 2. Install 2 libraries: pip install matplotlib, pip install pandas in the terminal
 3. import pandas as pd import matplotlib.pyplot as plt
-4. Download the code from the “CODING.py” folder
+4. Download the code from the “CODINGRESULT” folder
 5. upload the updatedfolder: https://docs.google.com/spreadsheets/d/18y78HwFkJX4VpXCnKNzlubgCz9f3Hal5WUf4RVspoco/edit#gid=0
    
 <img width="227" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/868f9ef1-83d6-444e-b4d6-4610e1d3a55b">

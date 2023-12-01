@@ -1,1 +1,56 @@
+#TO MAKE THE STRING VARIABLE HAVE INT VALUES
 
+pip install pandas
+import pandas as pd
+
+df = pd.read_csv("projectbank.csv", sep=';')
+
+income_mapping = {
+    'Less than $40K': 1,
+    '$40K - $60K': 2,
+    '$60K - $80K': 3,
+    '$80K - $120K': 4,
+    '$120K +': 5
+}
+
+education_mapping = {
+    'Uneducated': 1,
+    'High School': 2,
+    'College': 3,
+    'Graduate': 4,
+    'Post-Graduate': 5,
+    'Doctorate': 6
+}
+
+marital_mapping = {
+    'Single': 1,
+    'Married': 2,
+    'Divorced': 3
+}
+
+gender_mapping = {
+    'M': 1,
+    'F': 2
+}
+
+attrition_mapping = {
+    'Existing Customer': 1,
+    'Attrited Customer': 2
+}
+
+card_mapping = {
+    'Blue': 1,
+    'Silver': 2,
+    'Gold': 3,
+    'Platinum': 4
+}
+
+# Map to numerical values
+df['Income_Category_Num'] = df['Income_Category'].map(income_mapping)
+df['Education_Level_Num'] = df['Education_Level'].map(education_mapping)
+df['Marital_Status_Num'] = df['Marital_Status'].map(marital_mapping)
+df['Gender_Num'] = df['Gender'].map(gender_mapping)
+df['Attrition_Flag_Num'] = df['Attrition_Flag'].map(attrition_mapping)
+df['Card_Category_Num'] = df['Card_Category'].map(card_mapping)
+print(df)
+df.to_csv("updated_projectbank.csv", index=False, sep=';')

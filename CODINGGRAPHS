@@ -39,7 +39,7 @@ plt.title('Bar Chart of Income Category and Customer Age by Gender')
 plt.legend(title='Gender')
 plt.show()
 
-#
+#Barchart Income Category Number x Count  AND  Barchart Education level:
 # Set a consistent color palette
 color_palette = ['#6495ED', '#8A2BE2', '#9370DB', '#6A5ACD', '#FF69B4']
 

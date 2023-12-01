@@ -43,7 +43,7 @@ We will analyse the data to gain insights into customer characteristics and iden
   - We change these 6 variables from string to integer category: ttrition Flag, Gender, Education_Level, Marital_Status,
   Income Category, Card Category.
 
-CODE IN PYTHON TO MAKE THE NUMERICAL VARIABLES:
+**CODE IN PYTHON TO MAKE THE NUMERICAL VARIABLES:**
 
   1. Importing Necessary Library:The script begins by importing the pandas library
      Pip install pandas and import pandas as pd.

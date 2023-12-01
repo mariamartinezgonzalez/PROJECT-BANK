@@ -24,12 +24,17 @@ The original data set had 10127 rows, but as we wanted to explore in detail the 
   Income Category, Card Category and the rest of the variables are integers.
 
 **DETAILS ON THE INVESTIGATION**
+
 The primary objective of this project is to identify ideal candidates for granting loans and credit within the bank's customer base. We will focus on predicting customer creditworthiness and assessing the risk of loan defaults.
+
   **Inputs**: The program will require access to confidential customer data from “The World Street Bank”, including historical account data for 100 customers.
+  
   **Outputs**: The program will generate a report containing insights, visualisations, and recommendations for granting loans and credit to specific customers.
+  
   **Packages We Will Use**: The program is going to be runed in Python and we are going to use the Pandas and Matplotlib.
 
 **DESIGN OF THE DATASET**
+
 First, we will clean and preprocess the dataset, to address missing values and outliers, ensuring data quality. 
 We will analyse the data to gain insights into customer characteristics and identify patterns. 
 

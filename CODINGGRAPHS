@@ -25,5 +25,37 @@ axes[1, 1].set_title('Attrition Status')
 axes[1, 1].set_xlabel('Attrition Status')
 axes[1, 1].set_ylabel('Count')
 
+#Bar chart income category and customer Age by Gender
+# Bar chart using matplotlib
+plt.figure(figsize=(10, 6))
+# Define colors for each gender
+colors = {1: 'blue', 2: 'pink'}
+# Iterate over each gender and plot the bars
+for gender, data in df.groupby('Gender_Num'):
+    plt.bar(data["Customer_Age"], data["Income_Category_Num"], color=colors[gender], label=f'Gender {gender}', alpha=0.7)
+plt.xlabel('Customer Age')
+plt.ylabel('Income Category')
+plt.title('Bar Chart of Income Category and Customer Age by Gender')
+plt.legend(title='Gender')
+plt.show()
 
+#
+# Set a consistent color palette
+color_palette = ['#6495ED', '#8A2BE2', '#9370DB', '#6A5ACD', '#FF69B4']
 
+# Pairplot
+sns.pairplot(df[['Income_Category_Num', 'Education_Level_Num', 'Marital_Status_Num', 'Gender_Num', 'Card_Category_Num', 'Attrition_Flag_Num']], palette=color_palette)
+plt.show()
+
+# Heatmap
+plt.figure(figsize=(10, 8))
+sns.heatmap(df[['Income_Category_Num', 'Education_Level_Num', 'Marital_Status_Num', 'Gender_Num', 'Card_Category_Num', 'Attrition_Flag_Num']].corr(), annot=True, cmap='coolwarm')
+plt.show()
+
+# Bar plots
+fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(15, 10))
+
+for i, column in enumerate(['Income_Category_Num', 'Education_Level_Num', 'Marital_Status_Num', 'Gender_Num', 'Card_Category_Num', 'Attrition_Flag_Num']):
+    sns.countplot(x=column, data=df, ax=axes[i//3, i%3], palette=color_palette)
+
+plt.show()

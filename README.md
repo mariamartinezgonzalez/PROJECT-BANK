@@ -20,11 +20,34 @@ The original data set had 10127 rows, but as we wanted to explore in detail the 
 
 **BASIC INFORMATION**
 - Number of rows and columns = (100, 27)
-- Data type: these 3 variables are the only ones with strings: Attrition Flag, Gender, Education_Level, Marital_Status, Income Category, Card
-  Category and the rest of the variables are integers.
+- Data type: these 6 variables are the only ones with strings: Attrition Flag, Gender, Education_Level, Marital_Status,
+  Income Category, Card Category and the rest of the variables are integers.
 
 **DETAILS ON THE INVESTIGATION**
 The primary objective of this project is to identify ideal candidates for granting loans and credit within the bank's customer base. We will focus on predicting customer creditworthiness and assessing the risk of loan defaults.
+  **Inputs**: The program will require access to confidential customer data from “The World Street Bank”, including historical account data for 100 customers.
+  **Outputs**: The program will generate a report containing insights, visualisations, and recommendations for granting loans and credit to specific customers.
+  **Packages We Will Use**: The program is going to be runed in Python and we are going to use the Pandas and Matplotlib.
+
+**DESIGN OF THE DATASET**
+First, we will clean and preprocess the dataset, to address missing values and outliers, ensuring data quality. 
+We will analyse the data to gain insights into customer characteristics and identify patterns. 
+
+  - First we clean rows and we have just left with 100 clients.
+    
+  - We change these 6 variables from string to integer category: ttrition Flag, Gender, Education_Level, Marital_Status,
+  Income Category, Card Category.
+
+CODE IN PYTHON TO MAKE THE NUMERICAL VARIABLES:
+
+  1. Importing Necessary Library:The script begins by importing the pandas library
+     Pip install pandas and import pandas as pd.
+  2. Loading the CSV File: The code reads the "projectbank.csv" file into a DataFrame
+     using the read_csv function from pandas.
+  3. Defining Mapping Dictionaries:Several mapping dictionaries are defined to convert categorical values into numerical          representations. Each dictionary corresponds to a specific categorical column in the dataset and the code uses the map       function from pandas to create new numerical columns in the DataFrame based on the mapping dictionaries.
+  4. Saving the Updated DataFrame to a New CSV File:Finally, the code saves the updated DataFrame to a new CSV file named
+     "updated_projectbank.csv" using the to_csv function.
+
 
 
 

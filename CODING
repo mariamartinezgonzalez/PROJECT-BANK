@@ -1,8 +1,6 @@
 #TO MAKE THE STRING VARIABLE HAVE INT VALUES
-
 pip install pandas
 import pandas as pd
-
 df = pd.read_csv("projectbank.csv", sep=';')
 
 income_mapping = {

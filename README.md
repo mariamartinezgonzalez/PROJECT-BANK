@@ -45,13 +45,16 @@ We will analyse the data to gain insights into customer characteristics and iden
 
 **CODE IN PYTHON TO MAKE THE NUMERICAL VARIABLES:**
 
-  1. Importing Necessary Library:The script begins by importing the pandas library
+  1.1. Download Python and pycharm (link pycharm) (https://www.python.org/downloads/) into your desktop.
+  2.  Importing Necessary Library:The script begins by importing the pandas library
      Pip install pandas and import pandas as pd.
-  2. Loading the CSV File: The code reads the "projectbank.csv" file into a DataFrame
+  3. Loading the CSV File: The code reads the "projectbank.csv" file into a DataFrame
      using the read_csv function from pandas.
-  3. Defining Mapping Dictionaries:Several mapping dictionaries are defined to convert categorical values into numerical          representations. Each dictionary corresponds to a specific categorical column in the dataset and the code uses the map       function from pandas to create new numerical columns in the DataFrame based on the mapping dictionaries.
-  4. Saving the Updated DataFrame to a New CSV File:Finally, the code saves the updated DataFrame to a new CSV file named
-     "updated_projectbank.csv" using the to_csv function.
+  4. Download the code from the “CODING.py” folder.
+  5. Defining Mapping Dictionaries:Several mapping dictionaries are defined to convert categorical values into numerical          representations. Each dictionary corresponds to a specific categorical column in the dataset and the code uses the map       function from pandas to create new numerical columns in the DataFrame based on the mapping dictionaries.
+  
+  6. Saving the Updated DataFrame to a New CSV File:Finally, the code saves the updated DataFrame to a new CSV file
+      named"updated_projectbank.csv" using the to_csv function.
 
 **MOCKUPS**
 
@@ -73,6 +76,20 @@ Barchart Income Category Number x Count
 Barchart Education level:
 
 ![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/f40f1fcf-f73a-43bf-86b6-0752856f132b)
+
+**EXPLAINING THE CODE OF THE GRAPHS**
+1. Download Python and pycharm (link pycharm) (https://www.python.org/downloads/) into your desktop.
+2. Install 2 libraries: pip install matplotlib, pip install pandas in the terminal
+3. import pandas as pd import matplotlib.pyplot as plt
+4. Download the code from the “CODING.py” folder
+5. upload the updatedfolder: https://docs.google.com/spreadsheets/d/18y78HwFkJX4VpXCnKNzlubgCz9f3Hal5WUf4RVspoco/edit#gid=0
+   
+<img width="227" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/868f9ef1-83d6-444e-b4d6-4610e1d3a55b">
+
+6. Save “CODING.py” in a folder that you choose to be the directory of your project in Pycharm.
+   Once you have saved it, open this file in Pycharm by clicking on the directory, then clicking “New” and finally clicking
+   “File” and type in the name of the file, in this case: “CODING.py”.
+
 
 
 

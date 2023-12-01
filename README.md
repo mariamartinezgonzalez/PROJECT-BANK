@@ -53,9 +53,26 @@ We will analyse the data to gain insights into customer characteristics and iden
   4. Saving the Updated DataFrame to a New CSV File:Finally, the code saves the updated DataFrame to a new CSV file named
      "updated_projectbank.csv" using the to_csv function.
 
+**MOCKUPS**
 
 **GRAPHICS FOR EXPLAINIG THE DATASET**
 
+Barchart attrition number x count:
+
+<img width="385" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/45c1ab55-d9b3-40ed-87fb-514d139a36ba">
+
+Bar chart income category and customer Age by Gender: 
+
+<img width="287" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/5c99f6b8-490a-450e-a1d3-e848f35573c7">
+
+Barchart Income Category Number x Count
+
+![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/69843844-a93f-4c64-9921-c1d5e1262c35)
+
+
+Barchart Education level:
+
+![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/f40f1fcf-f73a-43bf-86b6-0752856f132b)
 
 
 

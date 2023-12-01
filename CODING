@@ -1,3 +1,5 @@
+LINK TO THE GOOGLE COLLABORATORY: https://colab.research.google.com/drive/1ezo-Ru58cKXTCgIOm-dTVqzPdfzxpHvj?usp=sharing
+
 #TO MAKE THE STRING VARIABLE HAVE INT VALUES
 pip install pandas
 import pandas as pd

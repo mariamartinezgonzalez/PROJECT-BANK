@@ -40,7 +40,7 @@ We will analyse the data to gain insights into customer characteristics and iden
 
   - First we clean rows and we have just left with 100 clients.
     
-  - We change these 6 variables from string to integer category: ttrition Flag, Gender, Education_Level, Marital_Status,
+  - We change these 6 variables from string to integer category: Attrition Flag, Gender, Education_Level, Marital_Status,
   Income Category, Card Category.
 
 **CODE IN PYTHON TO MAKE THE NUMERICAL VARIABLES:**

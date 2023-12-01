@@ -56,7 +56,6 @@ We will analyse the data to gain insights into customer characteristics and iden
   6. Saving the Updated DataFrame to a New CSV File:Finally, the code saves the updated DataFrame to a new CSV file
       named"updated_projectbank.csv" using the to_csv function.
 
-**MOCKUPS**
 
 **GRAPHICS FOR EXPLAINIG THE DATASET**
 
@@ -86,10 +85,12 @@ Barchart Education level:
    
 <img width="227" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/868f9ef1-83d6-444e-b4d6-4610e1d3a55b">
 
-6. Save “CODING.py” in a folder that you choose to be the directory of your project in Pycharm.
+6. Save “CODINGRAPH” in a folder that you choose to be the directory of your project in Pycharm.
    Once you have saved it, open this file in Pycharm by clicking on the directory, then clicking “New” and finally clicking
-   “File” and type in the name of the file, in this case: “CODING.py”.
+   “File” and type in the name of the file, in this case: “CODINGRAPH.py”.
 
+**MOCKUPS**
+![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/597850fd-28f3-4f5b-8ebd-244561e651b5)
 
 **RESULT**
 
@@ -106,6 +107,18 @@ chart with the most 10 loyal customers and their income:
 
 <img width="169" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/464754e5-070b-4908-a569-8936eeeeb31a">
 
+**EXPLAINING THE CODE OF THE RESULT**
+1. Once you have clean the dataset and add the new variables.
+2. Install 2 libraries: pip install matplotlib, pip install pandas in the terminal
+3. import pandas as pd import matplotlib.pyplot as plt
+4. Download the code from the “CODING.py” folder
+5. upload the updatedfolder: https://docs.google.com/spreadsheets/d/18y78HwFkJX4VpXCnKNzlubgCz9f3Hal5WUf4RVspoco/edit#gid=0
+   
+<img width="227" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/868f9ef1-83d6-444e-b4d6-4610e1d3a55b">
+
+6. Save “CODINGRESULT” in a folder that you choose to be the directory of your project in Pycharm.
+   Once you have saved it, open this file in Pycharm by clicking on the directory, then clicking “New” and finally clicking
+   “File” and type in the name of the file, in this case: “CODINGRESULT.py”.
 
 
 

@@ -78,7 +78,7 @@ Barchart Education level:
 ![image](https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/f40f1fcf-f73a-43bf-86b6-0752856f132b)
 
 **EXPLAINING THE CODE OF THE GRAPHS**
-1. Download Python and pycharm (link pycharm) (https://www.python.org/downloads/) into your desktop.
+1. Once you have clean the dataset and add the new variables.
 2. Install 2 libraries: pip install matplotlib, pip install pandas in the terminal
 3. import pandas as pd import matplotlib.pyplot as plt
 4. Download the code from the “CODING.py” folder
@@ -89,6 +89,23 @@ Barchart Education level:
 6. Save “CODING.py” in a folder that you choose to be the directory of your project in Pycharm.
    Once you have saved it, open this file in Pycharm by clicking on the directory, then clicking “New” and finally clicking
    “File” and type in the name of the file, in this case: “CODING.py”.
+
+
+**RESULT**
+
+This bank wants to make sure that the loans that are going to be give away are also going to be given back, therefore 
+first we are going to leave just the 10 most loyal clients, for that we are first going to see in a graph the relationship between months_on_book (time in months) and total_relationship_count (relationship with the bank) and take out the 10most loyal. Secondly with the most 10 loyal clients we are going to just focus on the clients that have an income of 40k or more.
+
+**GRAPH OF THE RESULT**
+
+barchart of loyalty: months_on_book and total_relationship_count:
+
+<img width="452" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/dd35b27a-4600-4424-a2ee-6f0a5d75ab0f">
+
+chart with the most 10 loyal customers and their income:
+
+<img width="169" alt="image" src="https://github.com/mariamartinezgonzalez/PROJECT-BANK/assets/151723296/464754e5-070b-4908-a569-8936eeeeb31a">
+
 
 
 

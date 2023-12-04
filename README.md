@@ -95,7 +95,7 @@ Barchart Education level:
 **RESULT**
 
 This bank wants to make sure that the loans that are going to be give away are also going to be given back, therefore 
-first we are going to leave just the 10 most loyal clients, for that we are first going to see in a graph the relationship between months_on_book (time in months) and total_relationship_count (relationship with the bank) and take out the 10most loyal. Secondly with the most 10 loyal clients we are going to just focus on the clients that have an income of 40k or more.
+first we are going to leave just the 10 most loyal clients, for that we are first going to see in a graph the relationship between months_on_book (time in months) and total_relationship_count (relationship with the bank) and take out the 10most loyal. Secondly with the most 10 loyal clients we are going to just focus on the clients that have an income of more than 60k.
 
 **GRAPH OF THE RESULT**
 
